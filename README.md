@@ -1,9 +1,9 @@
 # gbxmlMerge
-Merge Openings in gbXML File A with Surfaces in gbXML File B to Surfaces with Openings in gbXML File C.
+Merge 'Geometry' in gbXML File A with 'Openings' in gbXML File B to 'Geometry with Openings' in gbXML File C.
 
 Purpose: This python script is meant to process full Revit gbXML input files in XML format:
-		 (1) A geometry gbXML based on mass families without windows,
-		 (2) A Spaces gbXML based on detailed elements with windows.
+		 (1) A Geometry gbXML based on Mass families without windows,
+		 (2) An Openings gbXML based on Spaces from detailed elements with windows.
 
 Inputs:
 1. Revit gbXML files in XML format. File locations are chosen via a typical directory GUI.
@@ -11,7 +11,7 @@ Inputs:
 
 
 Outputs:
-1. Geometry from gbXML based on mass families and Windows from gbXML based on Spaces.
+1. Composite gbXML made up of Geometry from gbXML based on Mass families and Openings from gbXML based on Spaces.
 
 
 Notes:
