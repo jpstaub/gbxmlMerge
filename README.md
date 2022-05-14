@@ -15,7 +15,9 @@ Outputs:
 
 
 Notes:
-1. None
+1. Depends on xgbxml developed by Dr. Steven Firth of Loughborough University.
+2. xgbxml determines the destination surfaces of openings based on an adjustable distance tolerance.
+3. Surfaces and openings shall be coplanar to ensure functionality.
 
 
 Functional Development & Test:
