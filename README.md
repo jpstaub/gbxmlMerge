@@ -21,5 +21,6 @@ Notes:
 
 
 Functional Development & Test:
-Windows 10
-Anaconda / Spyder IDE / Python 3.8
+  Windows 10 /
+  Anaconda / Spyder IDE / Python 3.8 /
+  xgbxml 0.0.2
