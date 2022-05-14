@@ -8,8 +8,8 @@ This is a temporary script file.
 # todo: implement xgbxml 
 
 # import packages
-from xgbxml import get_parser
 from lxml import etree
+from xgbxml import get_parser
 import matplotlib.pyplot as plt
 from copy import copy
 
