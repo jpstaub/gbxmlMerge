@@ -1,0 +1,14 @@
+Merge openings from one gbXML file to another gbXML file without openings.
+
+xgbxml (https://github.com/stevenkfirth/xgbxml ; https://pypi.org/project/xgbxml) development
+
+# Schemas not installed by PIP
+	-Advisory >> No such file or directory: 'C:\\Users\\admin\\anaconda3\\envs\\Test\\lib\\site-packages\\xgbxml\\schemas\\GreenBuildingXML_Ver0.37.xsd'
+	-Corrective action >> Manually copied schemas from xgbxml github repo to the directory.
+	
+# CADModelAzimuth
+	-Nominal CADModelAzimuth is 0.
+	-In Revit true north was shifted 45 degrees east of project north to generate a change in CADModelAzimuth.
+	-CADModelAzimuth did not change >> CADModelAzimuth is not linked to Revit true north.
+	-In Revit project north was shifted 90 degrees east of true north to generate a change in CADModelAzimuth.
+	-CADModelAzimuth did not change >> CADModelAzimuth is not linked to Revit project north >> CADModelAzimuth is constant 0 >> gbXML coordinates change as required.
