@@ -23,14 +23,14 @@ from tkinter import filedialog
 Tk().withdraw()
 
 # define file variables
-fpa = filedialog.askopenfilename(title="gbXML Without Openings", filetypes=[("xml","*.xml")])
-fpb = filedialog.askopenfilename(title="gbXML With Openings", filetypes=[("xml","*.xml")])
-fpo = filedialog.asksaveasfilename(defaultextension='.xml', filetypes=[("xml","*.xml")])
+fpa = "./Input gbXML/TrueNorth 000/gbXML A_Geometry.xml"
+fpb = "./Input gbXML/TrueNorth 000/gbXML B_Opening.xml"
+fpo = "./Output gbXML/xgbxml C_Geometry-Opening_TrueNorth 000.xml"
 
-#Files
-# gbxmlWithOpenings = "Z:/CAD/Autodesk/RVT/Dynamo/Dynamo 2_X/dev/11_AutomatedBuildingEnergyModel/Output/Revit/Spaces/Simple Building_Separation Lines_22-03-20/gbXML A_Openings.xml"
-# gbxmlWithGeometry = "Z:/CAD/Autodesk/RVT/Dynamo/Dynamo 2_X/dev/11_AutomatedBuildingEnergyModel/Output/Revit/EAM/Simple Building_Separation Lines_22-03-20/gbXML B_Geometry.xml"
-# gbxmlOut = "out.xml"
+# define file variables with gui
+# fpa = filedialog.askopenfilename(title="gbXML Without Openings", filetypes=[("xml","*.xml")])
+# fpb = filedialog.askopenfilename(title="gbXML With Openings", filetypes=[("xml","*.xml")])
+# fpo = filedialog.asksaveasfilename(defaultextension='.xml', filetypes=[("xml","*.xml")])
 
 # uses xgbxml to generate a lxml parser to read gxXML version 0.37
 parser=get_parser(version='0.37')

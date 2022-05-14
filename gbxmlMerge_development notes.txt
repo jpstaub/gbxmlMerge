@@ -1,5 +1,12 @@
 Merge openings from one gbXML file to another gbXML file without openings.
 
+Environment:
+	Windows: 10
+	Anaconda Navigator: 1.9.12
+	Python: 3.8
+	Pip: 20.1.1
+	xgbxml: 0.0.2
+
 xgbxml (https://github.com/stevenkfirth/xgbxml ; https://pypi.org/project/xgbxml) development
 
 # Schemas not installed by PIP
@@ -12,3 +19,28 @@ xgbxml (https://github.com/stevenkfirth/xgbxml ; https://pypi.org/project/xgbxml
 	-CADModelAzimuth did not change >> CADModelAzimuth is not linked to Revit true north.
 	-In Revit project north was shifted 90 degrees east of true north to generate a change in CADModelAzimuth.
 	-CADModelAzimuth did not change >> CADModelAzimuth is not linked to Revit project north >> CADModelAzimuth is constant 0 >> gbXML coordinates change as required.
+	
+# 'insert' gbxml_opening
+	-gbxml_functions.py
+	Line 623
+		    # gbxml_opening2=copy(gbxml_opening)
+    
+			# set_shell_of_Opening(gbxml_opening2,
+			#                       opening_shell_on_plane,
+			#                       xsd_schema)
+    
+			# gbxml_surface.append(gbxml_opening2)
+			gbxml_surface.insert(3, gbxml_opening)   
+    
+    
+			# return gbxml_opening2
+			return gbxml_opening 
+	-No need to generate new opening data >> exterior wall planes match due to Revit gbXML based on Dynamo.
+	-'insert' preserves gbXML structure >> 'append' does not preserve gbXML structure.
+	
+# Revit gbXML >> Surface >> RectangularGeometry >> CartesianPoint
+	-Designates centroid of the surface.
+	
+# Revit gbXML >> Surface >> Opening >> RectangularGeometry >> CartesianPoint
+	-Third coordinate >> zero or missing.
+	-Distance of the bottom-left corner of the opening to the bottom-left corner of the parent surface.
