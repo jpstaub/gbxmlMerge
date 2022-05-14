@@ -21,7 +21,7 @@ xgbxml (https://github.com/stevenkfirth/xgbxml ; https://pypi.org/project/xgbxml
 	-CADModelAzimuth did not change >> CADModelAzimuth is not linked to Revit project north >> CADModelAzimuth is constant 0 >> gbXML coordinates change as required.
 	
 # 'insert' gbxml_opening
-	-gbxml_functions.py
+	-gbxml_functions.py copy_Opening_to_Surface
 	Line 623
 		    # gbxml_opening2=copy(gbxml_opening)
     
