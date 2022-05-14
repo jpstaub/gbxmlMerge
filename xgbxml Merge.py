@@ -52,7 +52,7 @@ gbxml_B = tree_B.getroot()
 # renders the gbXML etree
 ax = gbxml_B.Campus.render()
 ax.figure.set_size_inches(8, 8)
-ax.set_title('gbXML B_Geometry.xml')
+ax.set_title('gbXML B_Openings.xml')
 plt.show()
 
 # creates a copy of gbxml_A which is named gbxml_C
@@ -73,7 +73,7 @@ for su in gbxml_C.Campus.Surfaces:
 # renders the gbXML etree
 ax = gbxml_C.Campus.render()
 ax.figure.set_size_inches(8, 8)
-ax.set_title('gbXML C_Geometry.xml')
+ax.set_title('gbXML C_Composite.xml')
 plt.show()
 
 # writes the gbXML_C etree to a local file
