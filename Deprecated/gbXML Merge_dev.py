@@ -17,6 +17,8 @@ from tkinter import filedialog
 
 Tk().withdraw()
 
+#Todo: implement geometer (https://geometer.readthedocs.io/en/stable :: geometer.shapes module : class geometer.shapes.Polygon.contains) to detect containment of opening centroids in surface polygons.
+
 
 # define file variables
 fpa = "./Input gbXML/TrueNorth 000/gbXML A_Geometry.xml"

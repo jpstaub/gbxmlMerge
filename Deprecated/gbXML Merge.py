@@ -5,7 +5,7 @@ Spyder Editor
 This is a temporary script file.
 """
 
-#Todo: implement geometer (https://geometer.readthedocs.io/en/stable/quickstart.html) to detect containment of opening centroids in surface polygons.
+#Todo: implement geometer (https://geometer.readthedocs.io/en/stable :: geometer.shapes module : class geometer.shapes.Polygon.contains) to detect containment of opening centroids in surface polygons.
 
 import xml.etree.ElementTree as ET
 
