@@ -75,14 +75,48 @@ for opening in gbxml_B.Campus.Surfaces.Openings:
     opt = opening.PlanarGeometry.PolyLoop.CartesianPoint.get_coordinates()
     ov.append(tp.topologic.Vertex.ByCoordinates(opt[0],opt[1],opt[2]))
     
+def faceByVertices(vertices):
+    vertices
+    edges = []
+    for i in range(len(vertices)-1):
+        v1 = vertices[i]
+        v2 = vertices[i+1]
+        try:
+            e = tp.Edge.ByStartVertexEndVertex(v1, v2)
+            if e:
+                edges.append(e)
+        except:
+            continue
+
+    v1 = vertices[-1]
+    v2 = vertices[0]
+    try:
+        e = tp.Edge.ByStartVertexEndVertex(v1, v2)
+        if e:
+            edges.append(e)
+    except:
+        pass
+    if len(edges) > 3:
+        c = tp.Cluster.ByTopologies(edges, False)
+        w = c.SelfMerge()
+        if w.Type() == tp.Wire.Type() and w.IsClosed():
+            f = tp.Face.ByExternalBoundary(w)
+        else:
+            raise Exception("Error: Could not get a valid wire")
+    else:
+        raise Exception("Error: could not get a valid number of edges")
+    return f
+    
 # generate surface faces (sf)
 sf = []
 for surface in gbxml_C.Campus.Surfaces:
     if surface.get_attribute('surfaceType') == 'ExteriorWall':
         sv = []
-        for spt in surface.get_polygon()[0]:
+        # s = surface.PlanarGeometry.get_coordinates()
+        for spt in surface.PlanarGeometry.get_coordinates():
             sv.append(tp.topologic.Vertex.ByCoordinates(spt[0],spt[1],spt[2]))
-        sf.append(tp.topologic.FaceUtility.ByVertices(sv))
+        print(sv)
+        sf.append(faceByVertices(sv))
 
 # # find openings in gbxml_B and merge with gbxml_C (Original - fail: counts down openings and prevents cycle of all openings)
 # openings = list(gbxml_B.Campus.Surfaces.Openings)
