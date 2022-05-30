@@ -15,12 +15,14 @@ Outputs:
 
 
 Notes:
-1. Depends on xgbxml developed by Dr. Steven Firth of Loughborough University.
-2. xgbxml determines the destination surfaces of openings based on an adjustable distance tolerance.
-3. Surfaces and openings shall be coplanar to ensure functionality.
+1. Depends on xgbxml (https://pypi.org/project/xgbxml/) developed by Dr. Steven Firth of Loughborough University.
+2. Depends on topologicpy (https://test.pypi.org/project/topologicpy/) developed by Dr. Wassim Jabi of Cardiff University.
+3. xgbxml: handling of gbxml elements like Surfaces and Openings.
+4. topologicpy: determination of destination Surfaces of Openings with an adjustable Distance Tolerance.
 
 
 Functional Development & Test:
   Windows 10 /
   Anaconda / Spyder IDE / Python 3.8 /
-  xgbxml 0.0.2
+  xgbxml 0.0.8
+  topologicpy 0.1.5
