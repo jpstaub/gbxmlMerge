@@ -5,9 +5,11 @@ Environment:
 	Anaconda Navigator: 1.9.12
 	Python: 3.8
 	Pip: 20.1.1
-	xgbxml: 0.0.2
+	xgbxml: 0.0.8
+	topologic: 0.1.5
 
 xgbxml (https://github.com/stevenkfirth/xgbxml ; https://pypi.org/project/xgbxml) development
+topologic (https://test.pypi.org/project/topologicpy/)
 
 # Schemas not installed by PIP
 	-Advisory >> No such file or directory: 'C:\\Users\\admin\\anaconda3\\envs\\Test\\lib\\site-packages\\xgbxml\\schemas\\GreenBuildingXML_Ver0.37.xsd'
