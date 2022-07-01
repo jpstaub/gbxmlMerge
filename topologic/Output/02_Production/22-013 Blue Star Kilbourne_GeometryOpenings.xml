@@ -12807,6 +12807,43 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
+      <Opening openingType="OperableWindow" id="aim1563">
+        <RectangularGeometry id="aim1564">
+          <CartesianPoint>
+            <Coordinate>1.2916667</Coordinate>
+            <Coordinate>3</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2</Width>
+          <Height>2</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-9.625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-6</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-6</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-4</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-9.625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-4</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1312113]</CADObjectId>
+        <Name>W-001-E-W-2-W-1</Name>
+      </Opening>
       <CADObjectId>[Face[1410047,13]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0125">
@@ -12846,43 +12883,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim1563">
-        <RectangularGeometry id="aim1564">
-          <CartesianPoint>
-            <Coordinate>1.2916667</Coordinate>
-            <Coordinate>3</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2</Width>
-          <Height>2</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-9.625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-6</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-6</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-4</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-9.625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-4</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1312113]</CADObjectId>
-        <Name>W-001-E-W-2-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410047,14]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0162">
@@ -12899,6 +12899,43 @@
         <Width>6.140625</Width>
         <Height>9</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim2002">
+        <RectangularGeometry id="aim2003">
+          <CartesianPoint>
+            <Coordinate>3.3958333</Coordinate>
+            <Coordinate>2.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3.3333333</Width>
+          <Height>4.5833333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>4.1875</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-6.8333333</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.1875</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-2.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.5208333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-2.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.5208333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-6.8333333</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1310824]</CADObjectId>
+        <Name>E-005-E-W-34-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -12979,6 +13016,80 @@
         <Width>6.140625</Width>
         <Height>13.1927083</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim1845">
+        <RectangularGeometry id="aim1846">
+          <CartesianPoint>
+            <Coordinate>4.545555</Coordinate>
+            <Coordinate>0.6137524</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2</Width>
+          <Height>5.6666667</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-5.7747216</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-8.3862476</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-5.7747216</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-2.7195809</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.7747216</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-2.7195809</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.7747216</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-8.3862476</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1311190]</CADObjectId>
+        <Name>E-004-E-W-22-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim1835">
+        <RectangularGeometry id="aim1836">
+          <CartesianPoint>
+            <Coordinate>0.25</Coordinate>
+            <Coordinate>2.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3.3333333</Width>
+          <Height>4.5833333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-2.8125</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-6.8333333</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-2.8125</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-2.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.5208333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-2.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.5208333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>-6.8333333</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1311148]</CADObjectId>
+        <Name>E-004-E-W-22-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -13081,6 +13192,80 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
+      <Opening openingType="OperableWindow" id="aim1653">
+        <RectangularGeometry id="aim1654">
+          <CartesianPoint>
+            <Coordinate>10.9322917</Coordinate>
+            <Coordinate>2</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.4166667</Width>
+          <Height>5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>6.15625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-7</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.5729167</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-7</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.5729167</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-2</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>6.15625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-2</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1312457]</CADObjectId>
+        <Name>W-002-E-W-8-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim1643">
+        <RectangularGeometry id="aim1644">
+          <CartesianPoint>
+            <Coordinate>8.4322917</Coordinate>
+            <Coordinate>2</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.4166667</Width>
+          <Height>5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>3.65625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-7</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>6.0729167</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-7</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>6.0729167</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-2</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>3.65625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>-2</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1312295]</CADObjectId>
+        <Name>W-002-E-W-8-W-1</Name>
+      </Opening>
       <CADObjectId>[Face[1410054,13]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0353">
@@ -13120,43 +13305,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim2002">
-        <RectangularGeometry id="aim2003">
-          <CartesianPoint>
-            <Coordinate>3.3958333</Coordinate>
-            <Coordinate>2.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3.3333333</Width>
-          <Height>4.5833333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>4.1875</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-6.8333333</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>4.1875</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-2.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>7.5208333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-2.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>7.5208333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-6.8333333</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1310824]</CADObjectId>
-        <Name>E-005-E-W-34-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410054,14]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0390">
@@ -13213,6 +13361,117 @@
         <Width>28.046875</Width>
         <Height>9</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim2090">
+        <RectangularGeometry id="aim2091">
+          <CartesianPoint>
+            <Coordinate>1.2708333</Coordinate>
+            <Coordinate>4</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2</Width>
+          <Height>4</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-9.6458333</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>4</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.6458333</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>4</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.6458333</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>8</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-9.6458333</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>8</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346503]</CADObjectId>
+        <Name>W-101-E-W-39-W-3</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2080">
+        <RectangularGeometry id="aim2081">
+          <CartesianPoint>
+            <Coordinate>8.3441767</Coordinate>
+            <Coordinate>0.25</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.4166667</Width>
+          <Height>7.5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-2.5724899</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-0.1558233</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-0.1558233</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-2.5724899</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346505]</CADObjectId>
+        <Name>W-101-E-W-39-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2070">
+        <RectangularGeometry id="aim2071">
+          <CartesianPoint>
+            <Coordinate>5.8441767</Coordinate>
+            <Coordinate>0.25</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.4166667</Width>
+          <Height>7.5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-5.0724899</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-2.6558233</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-2.6558233</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-5.0724899</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346504]</CADObjectId>
+        <Name>W-101-E-W-39-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -13253,6 +13512,117 @@
         <Width>10.1458333</Width>
         <Height>11.8125</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim2256">
+        <RectangularGeometry id="aim2257">
+          <CartesianPoint>
+            <Coordinate>4.9066767</Coordinate>
+            <Coordinate>0.25</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.4166667</Width>
+          <Height>7.5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>4.8441767</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.2608434</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.2608434</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.8441767</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347004]</CADObjectId>
+        <Name>W-102-E-W-50-W-3</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2246">
+        <RectangularGeometry id="aim2247">
+          <CartesianPoint>
+            <Coordinate>0</Coordinate>
+            <Coordinate>0.25</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.3650101</Width>
+          <Height>7.5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-0.0625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.3025101</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.3025101</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-0.0625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347035]</CADObjectId>
+        <Name>W-102-E-W-50-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2236">
+        <RectangularGeometry id="aim2237">
+          <CartesianPoint>
+            <Coordinate>2.4066767</Coordinate>
+            <Coordinate>0.25</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.4166667</Width>
+          <Height>7.5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>2.3441767</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.7608434</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>0.25</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.7608434</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.3441767</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>7.75</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347003]</CADObjectId>
+        <Name>W-102-E-W-50-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -13475,6 +13845,191 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
+      <Opening openingType="OperableWindow" id="aim2560">
+        <RectangularGeometry id="aim2561">
+          <CartesianPoint>
+            <Coordinate>2.7657554</Coordinate>
+            <Coordinate>6.7291667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3</Width>
+          <Height>1.5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-7.75</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.7291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.75</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8.2291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-4.75</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8.2291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-4.75</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.7291667</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347707]</CADObjectId>
+        <Name>E-106-E-W-71-W-5</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2550">
+        <RectangularGeometry id="aim2551">
+          <CartesianPoint>
+            <Coordinate>5.7708333</Coordinate>
+            <Coordinate>6.7291667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>1.5</Width>
+          <Height>1.5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-9.255078</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.7291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-9.255078</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8.2291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.755078</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8.2291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.755078</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.7291667</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347640]</CADObjectId>
+        <Name>E-106-E-W-71-W-4</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2540">
+        <RectangularGeometry id="aim2541">
+          <CartesianPoint>
+            <Coordinate>5.7657554</Coordinate>
+            <Coordinate>0.5833333</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>1.5</Width>
+          <Height>6</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-9.25</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>0.5833333</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-9.25</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.5833333</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.75</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.5833333</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.75</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>0.5833333</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347543]</CADObjectId>
+        <Name>E-106-E-W-71-W-3</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2530">
+        <RectangularGeometry id="aim2531">
+          <CartesianPoint>
+            <Coordinate>1.25</Coordinate>
+            <Coordinate>0.5833333</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>1.5</Width>
+          <Height>6</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-4.7342446</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>0.5833333</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-4.7342446</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.5833333</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.2342446</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.5833333</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.2342446</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>0.5833333</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346502]</CADObjectId>
+        <Name>E-106-E-W-71-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2520">
+        <RectangularGeometry id="aim2521">
+          <CartesianPoint>
+            <Coordinate>1.25</Coordinate>
+            <Coordinate>6.7291667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>1.5</Width>
+          <Height>1.5</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-4.7342446</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.7291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-4.7342446</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8.2291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.2342446</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8.2291667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.2342446</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>6.7291667</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347572]</CADObjectId>
+        <Name>E-106-E-W-71-W-1</Name>
+      </Opening>
       <CADObjectId>[Face[1410061,17]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorFloor" id="aim0697">
@@ -13581,6 +14136,80 @@
         <Width>5.3854167</Width>
         <Height>9</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim2637">
+        <RectangularGeometry id="aim2638">
+          <CartesianPoint>
+            <Coordinate>6.8958333</Coordinate>
+            <Coordinate>2.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3.3333333</Width>
+          <Height>5.8333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.6875</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>2.1666667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.6875</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.0208333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.0208333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>2.1666667</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346501]</CADObjectId>
+        <Name>E-107-E-W-76-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2627">
+        <RectangularGeometry id="aim2628">
+          <CartesianPoint>
+            <Coordinate>3.3958333</Coordinate>
+            <Coordinate>2.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3.3333333</Width>
+          <Height>5.8333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>4.1875</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>2.1666667</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.1875</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.5208333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>8</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.5208333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>2.1666667</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346500]</CADObjectId>
+        <Name>E-107-E-W-76-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -13644,80 +14273,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim1845">
-        <RectangularGeometry id="aim1846">
-          <CartesianPoint>
-            <Coordinate>4.545555</Coordinate>
-            <Coordinate>0.6137524</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2</Width>
-          <Height>5.6666667</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-5.7747216</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-8.3862476</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-5.7747216</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-2.7195809</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.7747216</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-2.7195809</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.7747216</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-8.3862476</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1311190]</CADObjectId>
-        <Name>E-004-E-W-22-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim1835">
-        <RectangularGeometry id="aim1836">
-          <CartesianPoint>
-            <Coordinate>0.25</Coordinate>
-            <Coordinate>2.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3.3333333</Width>
-          <Height>4.5833333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-2.8125</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-6.8333333</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-2.8125</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-2.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>0.5208333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-2.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>0.5208333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>-6.8333333</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1311148]</CADObjectId>
-        <Name>E-004-E-W-22-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410068,25]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0854">
@@ -13757,6 +14312,117 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
+      <Opening openingType="OperableWindow" id="aim2712">
+        <RectangularGeometry id="aim2713">
+          <CartesianPoint>
+            <Coordinate>7.3622086</Coordinate>
+            <Coordinate>1.5</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.3333333</Width>
+          <Height>6</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-3.5544581</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-1.2211248</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-1.2211248</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.5544581</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347267]</CADObjectId>
+        <Name>W-201-E-W-80-W-3</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2702">
+        <RectangularGeometry id="aim2703">
+          <CartesianPoint>
+            <Coordinate>4.8776042</Coordinate>
+            <Coordinate>1.5</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.3333333</Width>
+          <Height>6</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-6.0390625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.7057292</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.7057292</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-6.0390625</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347189]</CADObjectId>
+        <Name>W-201-E-W-80-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2692">
+        <RectangularGeometry id="aim2693">
+          <CartesianPoint>
+            <Coordinate>2.375</Coordinate>
+            <Coordinate>1.5</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.3333333</Width>
+          <Height>6</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-8.5416667</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-6.2083333</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-6.2083333</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-8.5416667</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346515]</CADObjectId>
+        <Name>W-201-E-W-80-W-1</Name>
+      </Opening>
       <CADObjectId>[Face[1410068,26]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0893">
@@ -13902,6 +14568,117 @@
         <Width>2.755078</Width>
         <Height>11.9166667</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim2811">
+        <RectangularGeometry id="aim2812">
+          <CartesianPoint>
+            <Coordinate>1.1013331</Coordinate>
+            <Coordinate>1.5</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.3333333</Width>
+          <Height>6</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.96875</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>3.3020833</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>3.3020833</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.96875</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347297]</CADObjectId>
+        <Name>W-202-E-W-86-W-3</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2801">
+        <RectangularGeometry id="aim2802">
+          <CartesianPoint>
+            <Coordinate>3.6039373</Coordinate>
+            <Coordinate>1.5</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.3333333</Width>
+          <Height>6</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>3.4713542</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.8046875</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.8046875</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>3.4713542</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347298]</CADObjectId>
+        <Name>W-202-E-W-86-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim2791">
+        <RectangularGeometry id="aim2792">
+          <CartesianPoint>
+            <Coordinate>6.0885417</Coordinate>
+            <Coordinate>1.5</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.3333333</Width>
+          <Height>6</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>5.9559586</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.2892919</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>11.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.2892919</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.9559586</Coordinate>
+              <Coordinate>-35.0208333</Coordinate>
+              <Coordinate>17.6354167</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347299]</CADObjectId>
+        <Name>W-202-E-W-86-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -14234,80 +15011,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim1653">
-        <RectangularGeometry id="aim1654">
-          <CartesianPoint>
-            <Coordinate>10.9322917</Coordinate>
-            <Coordinate>2</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.4166667</Width>
-          <Height>5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>6.15625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-7</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>8.5729167</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-7</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>8.5729167</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-2</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>6.15625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-2</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1312457]</CADObjectId>
-        <Name>W-002-E-W-8-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim1643">
-        <RectangularGeometry id="aim1644">
-          <CartesianPoint>
-            <Coordinate>8.4322917</Coordinate>
-            <Coordinate>2</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.4166667</Width>
-          <Height>5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>3.65625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-7</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>6.0729167</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-7</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>6.0729167</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-2</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>3.65625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>-2</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1312295]</CADObjectId>
-        <Name>W-002-E-W-8-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410079,22]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1334">
@@ -14595,117 +15298,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim2090">
-        <RectangularGeometry id="aim2091">
-          <CartesianPoint>
-            <Coordinate>1.2708333</Coordinate>
-            <Coordinate>4</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2</Width>
-          <Height>4</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-9.6458333</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>4</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.6458333</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>4</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.6458333</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>8</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-9.6458333</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>8</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346503]</CADObjectId>
-        <Name>W-101-E-W-39-W-3</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2080">
-        <RectangularGeometry id="aim2081">
-          <CartesianPoint>
-            <Coordinate>8.3441767</Coordinate>
-            <Coordinate>0.25</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.4166667</Width>
-          <Height>7.5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-2.5724899</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-0.1558233</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-0.1558233</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-2.5724899</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346505]</CADObjectId>
-        <Name>W-101-E-W-39-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2070">
-        <RectangularGeometry id="aim2071">
-          <CartesianPoint>
-            <Coordinate>5.8441767</Coordinate>
-            <Coordinate>0.25</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.4166667</Width>
-          <Height>7.5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-5.0724899</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-2.6558233</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-2.6558233</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-5.0724899</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346504]</CADObjectId>
-        <Name>W-101-E-W-39-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410103,25]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim1605">
@@ -14722,6 +15314,154 @@
         <Width>18.4739583</Width>
         <Height>10.1354167</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim3198">
+        <RectangularGeometry id="aim3199">
+          <CartesianPoint>
+            <Coordinate>16.6875</Coordinate>
+            <Coordinate>2.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3.3333333</Width>
+          <Height>5.8333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-9.1041667</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>12.3020833</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-9.1041667</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>18.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-5.7708333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>18.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-5.7708333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>12.3020833</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347856]</CADObjectId>
+        <Name>E-207-E-W-115-W-4</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim3188">
+        <RectangularGeometry id="aim3189">
+          <CartesianPoint>
+            <Coordinate>13.1875</Coordinate>
+            <Coordinate>2.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3.3333333</Width>
+          <Height>5.8333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-5.6041667</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>12.3020833</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-5.6041667</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>18.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-2.2708333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>18.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-2.2708333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>12.3020833</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347855]</CADObjectId>
+        <Name>E-207-E-W-115-W-3</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim3178">
+        <RectangularGeometry id="aim3179">
+          <CartesianPoint>
+            <Coordinate>5.4791667</Coordinate>
+            <Coordinate>2.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3.3333333</Width>
+          <Height>5.8333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>2.1041667</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>12.3020833</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.1041667</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>18.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.4375</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>18.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.4375</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>12.3020833</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346513]</CADObjectId>
+        <Name>E-207-E-W-115-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim3168">
+        <RectangularGeometry id="aim3169">
+          <CartesianPoint>
+            <Coordinate>1.9791667</Coordinate>
+            <Coordinate>2.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3.3333333</Width>
+          <Height>5.8333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>5.6041667</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>12.3020833</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.6041667</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>18.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.9375</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>18.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.9375</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>12.3020833</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346512]</CADObjectId>
+        <Name>E-207-E-W-115-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -14802,6 +15542,43 @@
         <Width>5.2813804</Width>
         <Height>10.1354167</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableSkylight" id="aim3379">
+        <RectangularGeometry id="aim3380">
+          <CartesianPoint>
+            <Coordinate>3.6927083</Coordinate>
+            <Coordinate>14.4739583</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>7.9166667</Width>
+          <Height>1.5833333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-5.140625</Coordinate>
+              <Coordinate>-13.5989583</Coordinate>
+              <Coordinate>30.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.5572917</Coordinate>
+              <Coordinate>-13.5989583</Coordinate>
+              <Coordinate>30.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.5572917</Coordinate>
+              <Coordinate>-5.6822917</Coordinate>
+              <Coordinate>30.6354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-5.140625</Coordinate>
+              <Coordinate>-5.6822917</Coordinate>
+              <Coordinate>30.6354167</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Skylight-Flat_Size Grips: Standard [1313655]</CADObjectId>
+        <Name>T-301-E-R-125-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -14882,6 +15659,154 @@
         <Width>10.7840836</Width>
         <Height>12.796875</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim3352">
+        <RectangularGeometry id="aim3353">
+          <CartesianPoint>
+            <Coordinate>16.3620407</Coordinate>
+            <Coordinate>0.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.8333333</Width>
+          <Height>7.3333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>5.445374</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>20.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.2787073</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>20.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.2787073</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>27.46875</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.445374</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>27.46875</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1313607]</CADObjectId>
+        <Name>W-301-E-W-124-W-4</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim3342">
+        <RectangularGeometry id="aim3343">
+          <CartesianPoint>
+            <Coordinate>13.3620407</Coordinate>
+            <Coordinate>0.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.8333333</Width>
+          <Height>7.3333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>2.445374</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>20.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.2787073</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>20.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.2787073</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>27.46875</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.445374</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>27.46875</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1313569]</CADObjectId>
+        <Name>W-301-E-W-124-W-3</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim3332">
+        <RectangularGeometry id="aim3333">
+          <CartesianPoint>
+            <Coordinate>10.445374</Coordinate>
+            <Coordinate>0.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.8333333</Width>
+          <Height>7.3333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-0.4712927</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>20.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.3620407</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>20.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.3620407</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>27.46875</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-0.4712927</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>27.46875</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1313465]</CADObjectId>
+        <Name>W-301-E-W-124-W-2</Name>
+      </Opening>
+      <Opening openingType="OperableWindow" id="aim3322">
+        <RectangularGeometry id="aim3323">
+          <CartesianPoint>
+            <Coordinate>7.4166667</Coordinate>
+            <Coordinate>0.1666667</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>2.8333333</Width>
+          <Height>7.3333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-3.5</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>20.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-0.6666667</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>20.1354167</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-0.6666667</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>27.46875</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-3.5</Coordinate>
+              <Coordinate>-17.2916667</Coordinate>
+              <Coordinate>27.46875</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1313167]</CADObjectId>
+        <Name>W-301-E-W-124-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -15095,117 +16020,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim2256">
-        <RectangularGeometry id="aim2257">
-          <CartesianPoint>
-            <Coordinate>4.9066767</Coordinate>
-            <Coordinate>0.25</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.4166667</Width>
-          <Height>7.5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>4.8441767</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>7.2608434</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>7.2608434</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>4.8441767</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347004]</CADObjectId>
-        <Name>W-102-E-W-50-W-3</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2246">
-        <RectangularGeometry id="aim2247">
-          <CartesianPoint>
-            <Coordinate>0</Coordinate>
-            <Coordinate>0.25</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.3650101</Width>
-          <Height>7.5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-0.0625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>2.3025101</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>2.3025101</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-0.0625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347035]</CADObjectId>
-        <Name>W-102-E-W-50-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2236">
-        <RectangularGeometry id="aim2237">
-          <CartesianPoint>
-            <Coordinate>2.4066767</Coordinate>
-            <Coordinate>0.25</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.4166667</Width>
-          <Height>7.5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>2.3441767</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>4.7608434</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>0.25</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>4.7608434</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>2.3441767</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>7.75</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347003]</CADObjectId>
-        <Name>W-102-E-W-50-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410114,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1966">
@@ -15245,6 +16059,43 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
+      <Opening openingType="OperableWindow" id="aim3579">
+        <RectangularGeometry id="aim3580">
+          <CartesianPoint>
+            <Coordinate>7.1614583</Coordinate>
+            <Coordinate>2.5</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3</Width>
+          <Height>3.3333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-7.1458333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>22.46875</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-7.1458333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>25.8020833</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-4.1458333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>25.8020833</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-4.1458333</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>22.46875</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1312066]</CADObjectId>
+        <Name>E-304-E-W-141-W-1</Name>
+      </Opening>
       <CADObjectId>[Face[1410114,14]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim2004">
@@ -15431,6 +16282,43 @@
         <Width>3.8718229</Width>
         <Height>10.1354167</Height>
       </RectangularGeometry>
+      <Opening openingType="OperableWindow" id="aim3647">
+        <RectangularGeometry id="aim3648">
+          <CartesianPoint>
+            <Coordinate>3.8541667</Coordinate>
+            <Coordinate>2.5</Coordinate>
+            <Coordinate>0</Coordinate>
+          </CartesianPoint>
+          <Width>3</Width>
+          <Height>3.3333333</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>4.0625</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>22.46875</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.0625</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>25.8020833</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.0625</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>25.8020833</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.0625</Coordinate>
+              <Coordinate>11.6041667</Coordinate>
+              <Coordinate>22.46875</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1311972]</CADObjectId>
+        <Name>E-305-E-W-146-W-1</Name>
+      </Opening>
       <PlanarGeometry>
         <PolyLoop>
           <CartesianPoint>
@@ -16111,191 +16999,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim2560">
-        <RectangularGeometry id="aim2561">
-          <CartesianPoint>
-            <Coordinate>2.7657554</Coordinate>
-            <Coordinate>6.7291667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3</Width>
-          <Height>1.5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-7.75</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.7291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.75</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8.2291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-4.75</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8.2291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-4.75</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.7291667</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347707]</CADObjectId>
-        <Name>E-106-E-W-71-W-5</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2550">
-        <RectangularGeometry id="aim2551">
-          <CartesianPoint>
-            <Coordinate>5.7708333</Coordinate>
-            <Coordinate>6.7291667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>1.5</Width>
-          <Height>1.5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-9.255078</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.7291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-9.255078</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8.2291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.755078</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8.2291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.755078</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.7291667</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347640]</CADObjectId>
-        <Name>E-106-E-W-71-W-4</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2540">
-        <RectangularGeometry id="aim2541">
-          <CartesianPoint>
-            <Coordinate>5.7657554</Coordinate>
-            <Coordinate>0.5833333</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>1.5</Width>
-          <Height>6</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-9.25</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>0.5833333</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-9.25</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.5833333</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.75</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.5833333</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.75</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>0.5833333</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347543]</CADObjectId>
-        <Name>E-106-E-W-71-W-3</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2530">
-        <RectangularGeometry id="aim2531">
-          <CartesianPoint>
-            <Coordinate>1.25</Coordinate>
-            <Coordinate>0.5833333</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>1.5</Width>
-          <Height>6</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-4.7342446</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>0.5833333</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-4.7342446</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.5833333</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.2342446</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.5833333</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.2342446</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>0.5833333</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346502]</CADObjectId>
-        <Name>E-106-E-W-71-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2520">
-        <RectangularGeometry id="aim2521">
-          <CartesianPoint>
-            <Coordinate>1.25</Coordinate>
-            <Coordinate>6.7291667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>1.5</Width>
-          <Height>1.5</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-4.7342446</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.7291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-4.7342446</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8.2291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.2342446</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8.2291667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.2342446</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>6.7291667</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347572]</CADObjectId>
-        <Name>E-106-E-W-71-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410150,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim2839">
@@ -16493,80 +17196,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim2637">
-        <RectangularGeometry id="aim2638">
-          <CartesianPoint>
-            <Coordinate>6.8958333</Coordinate>
-            <Coordinate>2.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3.3333333</Width>
-          <Height>5.8333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>0.6875</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>2.1666667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>0.6875</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>4.0208333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>4.0208333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>2.1666667</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346501]</CADObjectId>
-        <Name>E-107-E-W-76-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2627">
-        <RectangularGeometry id="aim2628">
-          <CartesianPoint>
-            <Coordinate>3.3958333</Coordinate>
-            <Coordinate>2.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3.3333333</Width>
-          <Height>5.8333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>4.1875</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>2.1666667</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>4.1875</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>7.5208333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>8</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>7.5208333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>2.1666667</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346500]</CADObjectId>
-        <Name>E-107-E-W-76-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410157,20]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorFloor" id="aim3037">
@@ -16685,117 +17314,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim2712">
-        <RectangularGeometry id="aim2713">
-          <CartesianPoint>
-            <Coordinate>7.3622086</Coordinate>
-            <Coordinate>1.5</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.3333333</Width>
-          <Height>6</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-3.5544581</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-1.2211248</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-1.2211248</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.5544581</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347267]</CADObjectId>
-        <Name>W-201-E-W-80-W-3</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2702">
-        <RectangularGeometry id="aim2703">
-          <CartesianPoint>
-            <Coordinate>4.8776042</Coordinate>
-            <Coordinate>1.5</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.3333333</Width>
-          <Height>6</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-6.0390625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.7057292</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.7057292</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-6.0390625</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347189]</CADObjectId>
-        <Name>W-201-E-W-80-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2692">
-        <RectangularGeometry id="aim2693">
-          <CartesianPoint>
-            <Coordinate>2.375</Coordinate>
-            <Coordinate>1.5</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.3333333</Width>
-          <Height>6</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-8.5416667</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-6.2083333</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-6.2083333</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-8.5416667</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346515]</CADObjectId>
-        <Name>W-201-E-W-80-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410202,17]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim3154">
@@ -17152,117 +17670,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim2811">
-        <RectangularGeometry id="aim2812">
-          <CartesianPoint>
-            <Coordinate>1.1013331</Coordinate>
-            <Coordinate>1.5</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.3333333</Width>
-          <Height>6</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>0.96875</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>3.3020833</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>3.3020833</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>0.96875</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347297]</CADObjectId>
-        <Name>W-202-E-W-86-W-3</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2801">
-        <RectangularGeometry id="aim2802">
-          <CartesianPoint>
-            <Coordinate>3.6039373</Coordinate>
-            <Coordinate>1.5</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.3333333</Width>
-          <Height>6</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>3.4713542</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.8046875</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.8046875</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>3.4713542</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347298]</CADObjectId>
-        <Name>W-202-E-W-86-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim2791">
-        <RectangularGeometry id="aim2792">
-          <CartesianPoint>
-            <Coordinate>6.0885417</Coordinate>
-            <Coordinate>1.5</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.3333333</Width>
-          <Height>6</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>5.9559586</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>8.2892919</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>11.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>8.2892919</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.9559586</Coordinate>
-              <Coordinate>-35.0208333</Coordinate>
-              <Coordinate>17.6354167</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347299]</CADObjectId>
-        <Name>W-202-E-W-86-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410211,20]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim3503">
@@ -18528,154 +18935,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim3198">
-        <RectangularGeometry id="aim3199">
-          <CartesianPoint>
-            <Coordinate>16.6875</Coordinate>
-            <Coordinate>2.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3.3333333</Width>
-          <Height>5.8333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-9.1041667</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>12.3020833</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-9.1041667</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>18.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-5.7708333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>18.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-5.7708333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>12.3020833</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347856]</CADObjectId>
-        <Name>E-207-E-W-115-W-4</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim3188">
-        <RectangularGeometry id="aim3189">
-          <CartesianPoint>
-            <Coordinate>13.1875</Coordinate>
-            <Coordinate>2.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3.3333333</Width>
-          <Height>5.8333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-5.6041667</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>12.3020833</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-5.6041667</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>18.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-2.2708333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>18.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-2.2708333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>12.3020833</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1347855]</CADObjectId>
-        <Name>E-207-E-W-115-W-3</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim3178">
-        <RectangularGeometry id="aim3179">
-          <CartesianPoint>
-            <Coordinate>5.4791667</Coordinate>
-            <Coordinate>2.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3.3333333</Width>
-          <Height>5.8333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>2.1041667</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>12.3020833</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>2.1041667</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>18.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.4375</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>18.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.4375</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>12.3020833</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346513]</CADObjectId>
-        <Name>E-207-E-W-115-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim3168">
-        <RectangularGeometry id="aim3169">
-          <CartesianPoint>
-            <Coordinate>1.9791667</Coordinate>
-            <Coordinate>2.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3.3333333</Width>
-          <Height>5.8333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>5.6041667</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>12.3020833</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.6041667</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>18.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>8.9375</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>18.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>8.9375</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>12.3020833</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1346512]</CADObjectId>
-        <Name>E-207-E-W-115-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410267,23]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorFloor" id="aim4711">
@@ -19074,43 +19333,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableSkylight" id="aim3379">
-        <RectangularGeometry id="aim3380">
-          <CartesianPoint>
-            <Coordinate>3.6927083</Coordinate>
-            <Coordinate>14.4739583</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>7.9166667</Width>
-          <Height>1.5833333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-5.140625</Coordinate>
-              <Coordinate>-13.5989583</Coordinate>
-              <Coordinate>30.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.5572917</Coordinate>
-              <Coordinate>-13.5989583</Coordinate>
-              <Coordinate>30.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.5572917</Coordinate>
-              <Coordinate>-5.6822917</Coordinate>
-              <Coordinate>30.6354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-5.140625</Coordinate>
-              <Coordinate>-5.6822917</Coordinate>
-              <Coordinate>30.6354167</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Skylight-Flat_Size Grips: Standard [1313655]</CADObjectId>
-        <Name>T-301-E-R-125-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410313,35]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim5063">
@@ -19469,154 +19691,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim3352">
-        <RectangularGeometry id="aim3353">
-          <CartesianPoint>
-            <Coordinate>16.3620407</Coordinate>
-            <Coordinate>0.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.8333333</Width>
-          <Height>7.3333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>5.445374</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>20.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>8.2787073</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>20.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>8.2787073</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>27.46875</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.445374</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>27.46875</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1313607]</CADObjectId>
-        <Name>W-301-E-W-124-W-4</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim3342">
-        <RectangularGeometry id="aim3343">
-          <CartesianPoint>
-            <Coordinate>13.3620407</Coordinate>
-            <Coordinate>0.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.8333333</Width>
-          <Height>7.3333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>2.445374</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>20.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.2787073</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>20.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>5.2787073</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>27.46875</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>2.445374</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>27.46875</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1313569]</CADObjectId>
-        <Name>W-301-E-W-124-W-3</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim3332">
-        <RectangularGeometry id="aim3333">
-          <CartesianPoint>
-            <Coordinate>10.445374</Coordinate>
-            <Coordinate>0.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.8333333</Width>
-          <Height>7.3333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-0.4712927</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>20.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>2.3620407</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>20.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>2.3620407</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>27.46875</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-0.4712927</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>27.46875</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1313465]</CADObjectId>
-        <Name>W-301-E-W-124-W-2</Name>
-      </Opening>
-      <Opening openingType="OperableWindow" id="aim3322">
-        <RectangularGeometry id="aim3323">
-          <CartesianPoint>
-            <Coordinate>7.4166667</Coordinate>
-            <Coordinate>0.1666667</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>2.8333333</Width>
-          <Height>7.3333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-3.5</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>20.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-0.6666667</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>20.1354167</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-0.6666667</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>27.46875</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-3.5</Coordinate>
-              <Coordinate>-17.2916667</Coordinate>
-              <Coordinate>27.46875</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1313167]</CADObjectId>
-        <Name>W-301-E-W-124-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410313,44]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim5396">
@@ -19982,43 +20056,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim3579">
-        <RectangularGeometry id="aim3580">
-          <CartesianPoint>
-            <Coordinate>7.1614583</Coordinate>
-            <Coordinate>2.5</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3</Width>
-          <Height>3.3333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>-7.1458333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>22.46875</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-7.1458333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>25.8020833</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-4.1458333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>25.8020833</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>-4.1458333</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>22.46875</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1312066]</CADObjectId>
-        <Name>E-304-E-W-141-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410346,25]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim5770">
@@ -20264,43 +20301,6 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim3647">
-        <RectangularGeometry id="aim3648">
-          <CartesianPoint>
-            <Coordinate>3.8541667</Coordinate>
-            <Coordinate>2.5</Coordinate>
-            <Coordinate>0</Coordinate>
-          </CartesianPoint>
-          <Width>3</Width>
-          <Height>3.3333333</Height>
-        </RectangularGeometry>
-        <PlanarGeometry>
-          <PolyLoop>
-            <CartesianPoint>
-              <Coordinate>4.0625</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>22.46875</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>4.0625</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>25.8020833</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>7.0625</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>25.8020833</Coordinate>
-            </CartesianPoint>
-            <CartesianPoint>
-              <Coordinate>7.0625</Coordinate>
-              <Coordinate>11.6041667</Coordinate>
-              <Coordinate>22.46875</Coordinate>
-            </CartesianPoint>
-          </PolyLoop>
-        </PlanarGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips: Standard [1311972]</CADObjectId>
-        <Name>E-305-E-W-146-W-1</Name>
-      </Opening>
       <CADObjectId>[Face[1410358,17]]</CADObjectId>
     </Surface>
     <DaylightSavings>true</DaylightSavings>

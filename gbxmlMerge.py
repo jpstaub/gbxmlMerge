@@ -26,14 +26,14 @@ Tk().withdraw() # hides command line window
 
 
 # # define: file variables: sandbox project
-# fpa = "./Input/01_Simplified/gbXML A_Geometry.xml"
-# fpb = "./Input/01_Simplified/gbXML B_Opening_Multiple.xml"
-# fpo = "./Output/01_Simplified/gbXML C_GeometryOpenings.xml"
+# fpa = "./topologic/Input/01_Simplified/gbXML A_Geometry.xml"
+# fpb = "./topologic/Input/01_Simplified/gbXML B_Opening_Multiple.xml"
+# fpo = "./topologic/Output/01_Simplified/gbXML C_GeometryOpenings.xml"
 
 # # define: file variables: production project
-# fpa = "./Input/02_Production/22-013 Blue Star Kilbourne_Geometry.xml"
-# fpb = "./Input/02_Production/22-013 Blue Star Kilbourne_Openings.xml"
-# fpo = "./Output/02_Production/22-013 Blue Star Kilbourne_GeometryOpenings.xml"
+# fpa = "./topologic/Input/02_Production/22-013 Blue Star Kilbourne_Geometry.xml"
+# fpb = "./topologic/Input/02_Production/22-013 Blue Star Kilbourne_Openings.xml"
+# fpo = "./topologic/Output/02_Production/22-013 Blue Star Kilbourne_GeometryOpenings.xml"
 
 
 # define: file variables with gui
@@ -112,27 +112,33 @@ def faceByVertices(vertices):
         raise Exception("Error: could not get a valid number of edges")
     return f
 
-    
-# make: opening centroids (ocs)
+
+# get: gbxml_B openings (ops)    
+# make: gbxml_B opening centroids (ocs)
+ops = []
 ocs = []
 for op in gbxml_B.Campus.Surfaces.Openings:
+    ops.append(op)
     o = []
     for c in op.PlanarGeometry.get_coordinates():
         o.append(tp.Vertex.ByCoordinates(c[0],c[1],c[2]))
     ocs.append(tp.Topology.Centroid(faceByVertices(o)))
 
 
-# make: surface faces (sfs)
+# get: gbxml_C exterior surfaces (exsu)
+# make: gbxml_C surface faces (sfs)
+exsu = []
 sfs = []
-for su in gbxml_A.Campus.Surfaces:
-    # if surface.get_attribute('surfaceType') == 'ExteriorWall':
+for su in gbxml_C.Campus.Surfaces:
+    if su.get_attribute('surfaceType') in ['ExteriorWall', 'Roof']:
+        exsu.append(su)
         s = []
         for c in su.PlanarGeometry.get_coordinates():
             s.append(tp.Vertex.ByCoordinates(c[0],c[1],c[2]))
         sfs.append(faceByVertices(s))
 
 
-# test: opening vertex IsInside(face,point,tolerance) of surface face (vin)
+# test: gbxml_B opening centroid IsInside(face,point,tolerance) of gbxml_C surface face (vin)
 vin = []
 for oc in ocs:
     r = []
@@ -140,31 +146,31 @@ for oc in ocs:
         r.append(tp.FaceUtility.IsInside(sf,oc,0.01))
     vin.append(r)
     
-    
+   
 # # qa: count number of true responses per opening vertex
 # count = []
 # for v in vin:
 #     count.append(v.count(True))
     
     
-# get: indices of vertex isinside of surface face (ivif)
-ivif = []
+# get: indices of gbxml_C surfaces with gbxml_B opening centroid isinside (sfoc)
+sfoc = []
 for v in vin:
-    ivif.append(v.index(True))
-
-
-# make: list of surface objects (suobs)
-suobs = []
-for i in ivif:
-    suobs.append(gbxml_C.Campus.Surfaces[i])
+    if True in v:
+        sfoc.append(v.index(True))
+    else:
+        sfoc.append(False)
+        
     
-
-# insert: opening into gbxml_C surface
+# insert: gbxml_B opening into gbxml_C surface object
 i = 0
-for op in gbxml_B.Campus.Surfaces.Openings:
-    suobs[i].insert(3, op)
-    i = i+1
-     
+for sf in sfoc:
+    if sf==False:
+        i+=1
+    else:    
+        exsu[sf].insert(3, ops[i])
+        i+=1
+      
 
 # render: the gbXML etree
 ax = gbxml_C.Campus.render()
