@@ -2,8 +2,8 @@
 """
 Spyder Editor
 
-Merges two gbXML files exported from Revit. First gbXML based on Revit masses does not include openings.
-Second gbXML based on Revit spaces includes openings. Openings within variable 'dist' parameter are
+Merges two gbXML files exported from Revit. First gbXML based on Revit masses and does not include openings.
+Second gbXML based on Revit spaces and does include openings. Openings within variable 'dist' parameter are
 take from gbXML based on Revit spaces and merged with gbXML based on Revit masses.
 """
 
@@ -31,27 +31,23 @@ from tkinter import filedialog
 Tk().withdraw() # hides command line window
 
 
-# # define: file variables: sandbox project
-# fpa = "./topologic/Input/01_Simplified/Wall Interior/Simple Building_Separation Lines_Wall Interior_Mass.xml"
-# fpb = "./topologic/Input/01_Simplified/Wall Interior/Simple Building_Separation Lines_Wall Interior_Space.xml"
-# fpo = "./topologic/Output/01_Simplified/Simple Building_Separation Lines_Wall Interior.xml"
+# define: file variables: sandbox project
+fpa = "./topologic/Input/01_Simplified/Wall Interior/Simple Building_Separation Lines_Wall Interior_Mass.xml"
+fpb = "./topologic/Input/01_Simplified/Wall Interior/Simple Building_Separation Lines_Wall Interior_Space.xml"
+fpo = "./topologic/Output/01_Simplified/Simple Building_Separation Lines_Wall Interior.xml"
 
 
-# define: file variables with gui
-fpa = filedialog.askopenfilename(title="gbXML Without Openings", filetypes=[("xml","*.xml")])
-fpb = filedialog.askopenfilename(title="gbXML With Openings", filetypes=[("xml","*.xml")])
-fpo = filedialog.asksaveasfilename(defaultextension='.xml', filetypes=[("xml","*.xml")])
+# # define: file variables with gui
+# fpa = filedialog.askopenfilename(title="gbXML Without Openings", filetypes=[("xml","*.xml")])
+# fpb = filedialog.askopenfilename(title="gbXML With Openings", filetypes=[("xml","*.xml")])
+# fpo = filedialog.asksaveasfilename(defaultextension='.xml', filetypes=[("xml","*.xml")])
 
 
-# set: distance tolerance of opening from surface in gbXML length units (typically the thickness of the roof or wall)
-dist = 1.0
+# use: xgbxml to generate a lxml parser / read: gbXML version 0.37
+parser=get_parser(version='0.37')
 
-
-# use: xgbxml to generate a lxml parser / read: gbXML version from input file
-tree_parser=etree.parse(fpa)
-gbxml=tree_parser.getroot()
-parser=get_parser(version=gbxml.attrib['version'])
-# parser=get_parser(version='0.37')
+# set: distance tolerance of opening from surface in gbXML length units
+dist = 1.1
 
 
 # open: the file using the lxml parser
@@ -78,7 +74,7 @@ gbxml_B = tree_B.getroot()
 # plt.show()
 
 
-# make: a copy of gbxml_A named gbxml_C
+# make: a copy of gbxml_A which is named gbxml_C
 gbxml_C = copy(gbxml_A)
 etree_C = etree.ElementTree(gbxml_C)
 
@@ -121,15 +117,18 @@ def faceByVertices(vertices):
     return f
 
 
-# get: gbxml_B openings (ops)  
+# get: gbxml_B openings (ops)
+# make: Topologic opening vertices from gbxml_B opening vertices (ovs)    
 # make: Topologic opening centroids from gbxml_B openings (ocs)
 ops = []
+ovs = []
 ocs = []
 for op in gbxml_B.Campus.Surfaces.Openings:
     ops.append(op)
     o = []
     for c in op.PlanarGeometry.get_coordinates():
         o.append(tp.Vertex.ByCoordinates(c[0],c[1],c[2]))
+    ovs.append(o)
     ocs.append(tp.Topology.Centroid(faceByVertices(o)))
     
 
@@ -139,7 +138,6 @@ exsu = []
 sfs = []
 for su in gbxml_C.Campus.Surfaces:
     if su.get_attribute('surfaceType') in ['ExteriorWall', 'Roof']:
-    # if su.get_attribute('surfaceType') in ['Roof']:        
         exsu.append(su)
         s = []
         for c in su.PlanarGeometry.get_coordinates():
@@ -168,21 +166,27 @@ for v in vin:
     if True in v:
         sfoc.append(v.index(True))
     else:
-        sfoc.append(False)       
+        sfoc.append(False)  
 
-       
+            
+# # insert: gbxml_B opening into gbxml_C surface object
+# i = 0
+# for sf in sfoc:
+#     if sf==False:
+#         i+=1
+#     else:    
+#         exsu[sf].insert(3, ops[i])
+#         i+=1
+
+
 # insert: gbxml_B opening into gbxml_C surface object if opening within variable 'dist' parameter
 i = 0
 for sf in sfoc:
     if sf==False:
         i+=1
-    else:
-        try:
-            exsu[sf].insert(3, exsu[sf].copy_opening(ops[i],tolerance=dist)) # copy_opening is xgbxml method
-            i+=1
-        except ValueError as e:
-            print(str(e) + '. Check opening: ' + ops[i].Name.text + '.')            
-            i+=1
+    else:    
+        exsu[sf].insert(3, exsu[sf].copy_opening(ops[i],tolerance=dist)) # copy_opening is xgbxml method
+        i+=1
 
 
 # render: the gbXML etree
@@ -194,3 +198,65 @@ plt.show()
 
 # write: the gbXML_C etree to a local file
 etree_C.write(fpo, pretty_print=True)
+
+
+## Development - snap opening coordinates to surfaces
+# make: list of gbxml_B opening centroid vertices with gbxml_B opening centroid isinside gbxml_C surface (oclst)
+oclst = []
+i = 0
+for v in vin:
+    if True in v:
+        oclst.append(ocs[i])
+        i+=1
+    else:
+        i+=1        
+       
+        
+# make: list of gbxml_C surface faces with gbxml_B opening centroid isinside gbxml_C surface (sflst)
+sflst = []
+for sf in sfoc:
+    if sf==False:
+        pass
+    else:
+        sflst.append(sfs[sf])
+
+
+# make: list of distances of opening centroid vertices from opening faces 
+dist = []
+i = 0
+for s in sflst:
+    dist.append(tp.VertexUtility.Distance(oclst[i],s))
+    i+=1
+    
+
+# make: list of gbxml B opening vertices with centroids inside gbxml C surfaces (ovlst)
+ovlst = []
+i = 0
+for v in vin:
+    if True in v:
+        ovlst.append(ovs[i])
+        i+=1
+    else:
+        i+=1
+
+# snap: gbxml B vertices to gbxml C surfaces (pv)
+# projected_vertex = (topologic.FaceUtility.ProjectToSurface(face,vertex))
+pv = []
+for sf in sflst:
+    p = []
+    i = 0
+    for ov in ovlst:
+        if i < len(ov):
+            p.append(tp.FaceUtility.ProjectToSurface(sf,ov[i]))
+            i+=1
+    pv.append(p)
+
+# make: list of x,y,z coordinates of snapped gbxml B vertices to gbxml C surfaces (pvCoordinates)
+pvCoordinates = []
+for p in pv:
+    c = []
+    i = 0
+    while i < len(p):
+        c.append(tp.Vertex.Coordinates(p[i]))        
+        i+=1
+    pvCoordinates.append(c)

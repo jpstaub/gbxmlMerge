@@ -3254,7 +3254,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331932,12]]</CADObjectId>
+      <CADObjectId>[Face[1347452,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="SlabOnGrade" id="aim0085">
       <AdjacentSpaceId spaceIdRef="aim0014" surfaceType="SlabOnGrade"/>
@@ -3293,7 +3293,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331932,13]]</CADObjectId>
+      <CADObjectId>[Face[1347452,13]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0122">
       <AdjacentSpaceId spaceIdRef="aim0014" surfaceType="InteriorWall"/>
@@ -3333,7 +3333,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331932,14]==[1331939,17]]</CADObjectId>
+      <CADObjectId>[FacePair[1347452,14]==[1347459,17]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0159">
       <AdjacentSpaceId spaceIdRef="aim0014" surfaceType="ExteriorWall"/>
@@ -3372,7 +3372,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim0566">
+      <Opening openingType="OperableWindow" id="aim0567">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -3399,7 +3399,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1227105]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1227105]</CADObjectId>
         <Name>N-2-E-W-1-W-1</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -3426,7 +3426,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <CADObjectId>[Face[1331932,15]]</CADObjectId>
+      <CADObjectId>[Face[1347452,15]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorFloor" id="aim0196">
       <AdjacentSpaceId spaceIdRef="aim0014" surfaceType="Ceiling"/>
@@ -3466,7 +3466,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331932,16]==[1331963,12]]</CADObjectId>
+      <CADObjectId>[FacePair[1347452,16]==[1347483,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0233">
       <AdjacentSpaceId spaceIdRef="aim0014" surfaceType="InteriorWall"/>
@@ -3506,7 +3506,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331932,17]==[1331953,12]]</CADObjectId>
+      <CADObjectId>[FacePair[1347452,17]==[1347473,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0276">
       <AdjacentSpaceId spaceIdRef="aim0242" surfaceType="ExteriorWall"/>
@@ -3545,7 +3545,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331939,12]]</CADObjectId>
+      <CADObjectId>[Face[1347459,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="SlabOnGrade" id="aim0313">
       <AdjacentSpaceId spaceIdRef="aim0242" surfaceType="SlabOnGrade"/>
@@ -3584,7 +3584,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331939,13]]</CADObjectId>
+      <CADObjectId>[Face[1347459,13]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0350">
       <AdjacentSpaceId spaceIdRef="aim0242" surfaceType="InteriorWall"/>
@@ -3624,7 +3624,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331939,14]==[1331945,21]]</CADObjectId>
+      <CADObjectId>[FacePair[1347459,14]==[1347465,21]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0387">
       <AdjacentSpaceId spaceIdRef="aim0242" surfaceType="ExteriorWall"/>
@@ -3663,7 +3663,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim0646">
+      <Opening openingType="OperableWindow" id="aim0647">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -3690,7 +3690,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1227209]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1227209]</CADObjectId>
         <Name>W-3-E-W-7-W-1</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -3717,7 +3717,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <CADObjectId>[Face[1331939,15]]</CADObjectId>
+      <CADObjectId>[Face[1347459,15]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorFloor" id="aim0424">
       <AdjacentSpaceId spaceIdRef="aim0242" surfaceType="Ceiling"/>
@@ -3757,7 +3757,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331939,16]==[1331969,15]]</CADObjectId>
+      <CADObjectId>[FacePair[1347459,16]==[1347489,15]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0468">
       <AdjacentSpaceId spaceIdRef="aim0434" surfaceType="ExteriorWall"/>
@@ -3796,7 +3796,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331945,16]]</CADObjectId>
+      <CADObjectId>[Face[1347465,16]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorFloor" id="aim0505">
       <AdjacentSpaceId spaceIdRef="aim0434" surfaceType="Ceiling"/>
@@ -3836,7 +3836,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331945,17]==[1331975,26]]</CADObjectId>
+      <CADObjectId>[FacePair[1347465,17]==[1347495,26]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0542">
       <AdjacentSpaceId spaceIdRef="aim0434" surfaceType="ExteriorWall"/>
@@ -3875,7 +3875,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim0734">
+      <Opening openingType="OperableWindow" id="aim0735">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -3902,7 +3902,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1333691]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1333691]</CADObjectId>
         <Name>S-4-E-W-12-W-3</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -3929,7 +3929,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <Opening openingType="OperableWindow" id="aim0724">
+      <Opening openingType="OperableWindow" id="aim0725">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -3956,7 +3956,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1333669]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1333669]</CADObjectId>
         <Name>S-4-E-W-12-W-2</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -3983,7 +3983,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <Opening openingType="OperableWindow" id="aim0714">
+      <Opening openingType="OperableWindow" id="aim0715">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -4010,7 +4010,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1227237]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1227237]</CADObjectId>
         <Name>S-4-E-W-12-W-1</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -4037,7 +4037,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <CADObjectId>[Face[1331945,18]]</CADObjectId>
+      <CADObjectId>[Face[1347465,18]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0579">
       <AdjacentSpaceId spaceIdRef="aim0434" surfaceType="InteriorWall"/>
@@ -4077,7 +4077,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331945,19]==[1331958,14]]</CADObjectId>
+      <CADObjectId>[FacePair[1347465,19]==[1347478,14]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0616">
       <AdjacentSpaceId spaceIdRef="aim0434" surfaceType="InteriorWall"/>
@@ -4117,7 +4117,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331945,20]==[1331953,14]]</CADObjectId>
+      <CADObjectId>[FacePair[1347465,20]==[1347473,14]]</CADObjectId>
     </Surface>
     <Surface surfaceType="SlabOnGrade" id="aim0654">
       <AdjacentSpaceId spaceIdRef="aim0434" surfaceType="SlabOnGrade"/>
@@ -4156,7 +4156,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331945,22]]</CADObjectId>
+      <CADObjectId>[Face[1347465,22]]</CADObjectId>
     </Surface>
     <Surface surfaceType="SlabOnGrade" id="aim0698">
       <AdjacentSpaceId spaceIdRef="aim0663" surfaceType="SlabOnGrade"/>
@@ -4195,7 +4195,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331953,13]]</CADObjectId>
+      <CADObjectId>[Face[1347473,13]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0736">
       <AdjacentSpaceId spaceIdRef="aim0663" surfaceType="ExteriorWall"/>
@@ -4234,7 +4234,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim0814">
+      <Opening openingType="OperableWindow" id="aim0815">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -4261,7 +4261,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1227159]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1227159]</CADObjectId>
         <Name>N-5-E-W-18-W-1</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -4288,7 +4288,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <CADObjectId>[Face[1331953,15]]</CADObjectId>
+      <CADObjectId>[Face[1347473,15]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorFloor" id="aim0773">
       <AdjacentSpaceId spaceIdRef="aim0663" surfaceType="Ceiling"/>
@@ -4328,7 +4328,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331953,16]==[1331983,12]]</CADObjectId>
+      <CADObjectId>[FacePair[1347473,16]==[1347503,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim0810">
       <AdjacentSpaceId spaceIdRef="aim0663" surfaceType="InteriorWall"/>
@@ -4368,7 +4368,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331953,17]==[1331958,12]]</CADObjectId>
+      <CADObjectId>[FacePair[1347473,17]==[1347478,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="SlabOnGrade" id="aim0854">
       <AdjacentSpaceId spaceIdRef="aim0819" surfaceType="SlabOnGrade"/>
@@ -4407,7 +4407,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331958,13]]</CADObjectId>
+      <CADObjectId>[Face[1347478,13]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0892">
       <AdjacentSpaceId spaceIdRef="aim0819" surfaceType="ExteriorWall"/>
@@ -4446,7 +4446,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331958,15]]</CADObjectId>
+      <CADObjectId>[Face[1347478,15]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorFloor" id="aim0929">
       <AdjacentSpaceId spaceIdRef="aim0819" surfaceType="Ceiling"/>
@@ -4486,7 +4486,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331958,16]==[1331987,12]]</CADObjectId>
+      <CADObjectId>[FacePair[1347478,16]==[1347507,12]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim0966">
       <AdjacentSpaceId spaceIdRef="aim0819" surfaceType="ExteriorWall"/>
@@ -4525,7 +4525,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331958,17]]</CADObjectId>
+      <CADObjectId>[Face[1347478,17]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim1010">
       <AdjacentSpaceId spaceIdRef="aim0975" surfaceType="InteriorWall"/>
@@ -4565,7 +4565,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331963,13]==[1331969,16]]</CADObjectId>
+      <CADObjectId>[FacePair[1347483,13]==[1347489,16]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim1047">
       <AdjacentSpaceId spaceIdRef="aim0975" surfaceType="InteriorWall"/>
@@ -4605,7 +4605,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331963,14]==[1331983,15]]</CADObjectId>
+      <CADObjectId>[FacePair[1347483,14]==[1347503,15]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1084">
       <AdjacentSpaceId spaceIdRef="aim0975" surfaceType="ExteriorWall"/>
@@ -4644,7 +4644,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331963,15]]</CADObjectId>
+      <CADObjectId>[Face[1347483,15]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1121">
       <AdjacentSpaceId spaceIdRef="aim0975" surfaceType="ExteriorWall"/>
@@ -4683,7 +4683,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim0917">
+      <Opening openingType="OperableWindow" id="aim0918">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -4710,7 +4710,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1227292]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1227292]</CADObjectId>
         <Name>N-7-E-W-26-W-1</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -4737,7 +4737,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <CADObjectId>[Face[1331963,16]]</CADObjectId>
+      <CADObjectId>[Face[1347483,16]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim1158">
       <AdjacentSpaceId spaceIdRef="aim0975" surfaceType="Roof"/>
@@ -4776,7 +4776,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331963,17]]</CADObjectId>
+      <CADObjectId>[Face[1347483,17]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1203">
       <AdjacentSpaceId spaceIdRef="aim1167" surfaceType="ExteriorWall"/>
@@ -4815,7 +4815,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331969,17]]</CADObjectId>
+      <CADObjectId>[Face[1347489,17]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim1240">
       <AdjacentSpaceId spaceIdRef="aim1167" surfaceType="Roof"/>
@@ -4854,7 +4854,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331969,18]]</CADObjectId>
+      <CADObjectId>[Face[1347489,18]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim1279">
       <AdjacentSpaceId spaceIdRef="aim1167" surfaceType="InteriorWall"/>
@@ -4899,7 +4899,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331969,19]==[1331975,20]]</CADObjectId>
+      <CADObjectId>[FacePair[1347489,19]==[1347495,20]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1319">
       <AdjacentSpaceId spaceIdRef="aim1167" surfaceType="ExteriorWall"/>
@@ -4943,7 +4943,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim0986">
+      <Opening openingType="OperableWindow" id="aim0987">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -4970,7 +4970,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1227294]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1227294]</CADObjectId>
         <Name>W-8-E-W-31-W-1</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -4997,7 +4997,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <CADObjectId>[Face[1331969,20]]</CADObjectId>
+      <CADObjectId>[Face[1347489,20]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim1357">
       <AdjacentSpaceId spaceIdRef="aim1167" surfaceType="Roof"/>
@@ -5036,7 +5036,61 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331969,21]]</CADObjectId>
+      <Opening openingType="OperableSkylight" id="aim1030">
+        <RectangularGeometry>
+          <Height>2.583333360000013</Height>
+          <Width>2.5833332999999925</Width>
+          <CartesianPoint>
+            <Coordinate>5.9166667000000075</Coordinate>
+            <Coordinate>5.355947719999996</Coordinate>
+          </CartesianPoint>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.0</Coordinate>
+              <Coordinate>0.0</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.5833332999999925</Coordinate>
+              <Coordinate>0.0</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.5833332999999925</Coordinate>
+              <Coordinate>2.583333360000013</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.0</Coordinate>
+              <Coordinate>2.583333360000013</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </RectangularGeometry>
+        <CADObjectId>Ripcord_Skylight_Size Grips_Topologic: OperableSkylight [1335954]</CADObjectId>
+        <Name>T-8-E-R-34-W-1</Name>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>86.6410395</Coordinate>
+              <Coordinate>98.561572676</Coordinate>
+              <Coordinate>24.463568632</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>89.2243728</Coordinate>
+              <Coordinate>98.561572676</Coordinate>
+              <Coordinate>24.463568632</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>89.2243728</Coordinate>
+              <Coordinate>100.62823936400001</Coordinate>
+              <Coordinate>26.013568648000003</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>86.6410395</Coordinate>
+              <Coordinate>100.62823936400001</Coordinate>
+              <Coordinate>26.013568648000003</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>[Face[1347489,21]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim1400">
       <AdjacentSpaceId spaceIdRef="aim1366" surfaceType="InteriorWall"/>
@@ -5076,7 +5130,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331975,19]==[1331983,13]]</CADObjectId>
+      <CADObjectId>[FacePair[1347495,19]==[1347503,13]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim1438">
       <AdjacentSpaceId spaceIdRef="aim1366" surfaceType="Roof"/>
@@ -5115,7 +5169,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331975,21]]</CADObjectId>
+      <CADObjectId>[Face[1347495,21]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim1475">
       <AdjacentSpaceId spaceIdRef="aim1366" surfaceType="InteriorWall"/>
@@ -5155,7 +5209,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331975,22]==[1331987,13]]</CADObjectId>
+      <CADObjectId>[FacePair[1347495,22]==[1347507,13]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1514">
       <AdjacentSpaceId spaceIdRef="aim1366" surfaceType="ExteriorWall"/>
@@ -5199,7 +5253,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331975,23]]</CADObjectId>
+      <CADObjectId>[Face[1347495,23]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1552">
       <AdjacentSpaceId spaceIdRef="aim1366" surfaceType="ExteriorWall"/>
@@ -5238,7 +5292,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim1066">
+      <Opening openingType="OperableWindow" id="aim1077">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -5265,7 +5319,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1227295]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1227295]</CADObjectId>
         <Name>S-9-E-W-37-W-1</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -5292,7 +5346,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <CADObjectId>[Face[1331975,24]]</CADObjectId>
+      <CADObjectId>[Face[1347495,24]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim1589">
       <AdjacentSpaceId spaceIdRef="aim1366" surfaceType="Roof"/>
@@ -5331,7 +5385,61 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331975,25]]</CADObjectId>
+      <Opening openingType="OperableSkylight" id="aim1111">
+        <RectangularGeometry>
+          <Height>2.5833333599999975</Height>
+          <Width>2.5833332999999925</Width>
+          <CartesianPoint>
+            <Coordinate>11.916666700000007</Coordinate>
+            <Coordinate>5.355947719999996</Coordinate>
+          </CartesianPoint>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.0</Coordinate>
+              <Coordinate>0.0</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.5833332999999925</Coordinate>
+              <Coordinate>0.0</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.5833332999999925</Coordinate>
+              <Coordinate>2.5833333599999975</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.0</Coordinate>
+              <Coordinate>2.5833333599999975</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </RectangularGeometry>
+        <CADObjectId>Ripcord_Skylight_Size Grips_Topologic: OperableSkylight [1343531]</CADObjectId>
+        <Name>T-9-E-R-39-W-1</Name>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>106.6410395</Coordinate>
+              <Coordinate>98.561572676</Coordinate>
+              <Coordinate>24.463568632</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>109.2243728</Coordinate>
+              <Coordinate>98.561572676</Coordinate>
+              <Coordinate>24.463568632</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>109.2243728</Coordinate>
+              <Coordinate>100.628239364</Coordinate>
+              <Coordinate>26.013568648000003</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>106.6410395</Coordinate>
+              <Coordinate>100.628239364</Coordinate>
+              <Coordinate>26.013568648000003</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>[Face[1347495,25]]</CADObjectId>
     </Surface>
     <Surface surfaceType="InteriorWall" id="aim1635">
       <AdjacentSpaceId spaceIdRef="aim1599" surfaceType="InteriorWall"/>
@@ -5371,7 +5479,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[FacePair[1331983,14]==[1331987,15]]</CADObjectId>
+      <CADObjectId>[FacePair[1347503,14]==[1347507,15]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1673">
       <AdjacentSpaceId spaceIdRef="aim1599" surfaceType="ExteriorWall"/>
@@ -5410,7 +5518,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <Opening openingType="OperableWindow" id="aim1158">
+      <Opening openingType="OperableWindow" id="aim1179">
         <RectangularGeometry>
           <Height>6.0</Height>
           <Width>3.0</Width>
@@ -5437,7 +5545,7 @@
             </CartesianPoint>
           </PolyLoop>
         </RectangularGeometry>
-        <CADObjectId>Ripcord_Fixed With Size Grips_Topologic: Standard [1227293]</CADObjectId>
+        <CADObjectId>Ripcord_Size Grips_Topologic: OperableWindow [1227293]</CADObjectId>
         <Name>N-10-E-W-44-W-1</Name>
         <PlanarGeometry>
           <PolyLoop>
@@ -5464,7 +5572,7 @@
           </PolyLoop>
         </PlanarGeometry>
       </Opening>
-      <CADObjectId>[Face[1331983,16]]</CADObjectId>
+      <CADObjectId>[Face[1347503,16]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim1710">
       <AdjacentSpaceId spaceIdRef="aim1599" surfaceType="Roof"/>
@@ -5503,7 +5611,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331983,17]]</CADObjectId>
+      <CADObjectId>[Face[1347503,17]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1755">
       <AdjacentSpaceId spaceIdRef="aim1719" surfaceType="ExteriorWall"/>
@@ -5542,7 +5650,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331987,14]]</CADObjectId>
+      <CADObjectId>[Face[1347507,14]]</CADObjectId>
     </Surface>
     <Surface surfaceType="ExteriorWall" exposedToSun="true" id="aim1793">
       <AdjacentSpaceId spaceIdRef="aim1719" surfaceType="ExteriorWall"/>
@@ -5581,7 +5689,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331987,16]]</CADObjectId>
+      <CADObjectId>[Face[1347507,16]]</CADObjectId>
     </Surface>
     <Surface surfaceType="Roof" exposedToSun="true" id="aim1830">
       <AdjacentSpaceId spaceIdRef="aim1719" surfaceType="Roof"/>
@@ -5620,7 +5728,7 @@
           </CartesianPoint>
         </PolyLoop>
       </PlanarGeometry>
-      <CADObjectId>[Face[1331987,17]]</CADObjectId>
+      <CADObjectId>[Face[1347507,17]]</CADObjectId>
     </Surface>
     <DaylightSavings>false</DaylightSavings>
     <Name>Created from Revit</Name>
@@ -5682,11 +5790,11 @@
       <Version>2021 20210426_1515(x64)</Version>
       <Platform>Microsoft Windows 10</Platform>
       <ProjectEntity>
-        <URI>file:///Z:/CAD/Autodesk/RVT/Dynamo/Dynamo 2_X/dev/11_AutomatedBuildingEnergyModel/Simple Building_Separation Lines.rvt</URI>
+        <URI>file:///Z:/CAD/Autodesk/RVT/Dynamo/Dynamo 2_X/dev/11_AutomatedBuildingEnergyModel/Simple Building_Separation Lines_Wall Centerline.rvt</URI>
         <GUID entity="File">27d06d12-3e6e-4901-94cf-e6dfed29199d</GUID>
       </ProjectEntity>
     </ProgramInfo>
-    <CreatedBy personId="aim0005" programId="aim0004" date="2022-05-23T01:55:29"/>
+    <CreatedBy personId="aim0005" programId="aim0004" date="2022-09-10T21:54:25"/>
     <PersonInfo id="aim0005"/>
   </DocumentHistory>
 </gbXML>

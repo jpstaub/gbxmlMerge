@@ -24,7 +24,7 @@ topologic (https://test.pypi.org/project/topologicpy/)
 	
 # 'insert' gbxml_opening
 	-gbxml_functions.py copy_Opening_to_Surface
-	Line 623
+	Line 823
 		    # gbxml_opening2=copy(gbxml_opening)
     
 			# set_shell_of_Opening(gbxml_opening2,
@@ -46,3 +46,6 @@ topologic (https://test.pypi.org/project/topologicpy/)
 # Revit gbXML >> Surface >> Opening >> RectangularGeometry >> CartesianPoint
 	-Third coordinate >> zero or missing.
 	-Distance of the bottom-left corner of the opening to the bottom-left corner of the parent surface.
+	
+# Topologic >> FaceUtility >> ProjectToSurface
+	-Does not seem to produce accurate results for skylight openings on sloped roofs.

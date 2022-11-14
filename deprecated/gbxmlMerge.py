@@ -2,12 +2,10 @@
 """
 Spyder Editor
 
-Merges two gbXML files exported from Revit. First gbXML based on Revit masses does not include openings.
-Second gbXML based on Revit spaces includes openings. Openings within variable 'dist' parameter are
-take from gbXML based on Revit spaces and merged with gbXML based on Revit masses.
+This is a temporary script file.
 """
 
-
+# Todo: implement Topologic (https://topologic.app/user_doc :: Topologic:Utilities:FaceUtility:IsInside) to detect containment of opening vertex in surface faces.
 # Topologic on PyPi: https://test.pypi.org/project/topologicpy/
 
 
@@ -16,12 +14,10 @@ from lxml import etree
 from xgbxml import get_parser
 import matplotlib.pyplot as plt
 from copy import copy
-# import topologicpy.bin.topologic.topologic as tp
-from topologicpy import topologic as tp # proven to be the most reliable method of importing 'topologic'
+#from topologicpy import topologic as tp # from 'foo' import 'bar': this syntax required for topologicpy functionality
+import topologic as tp
 
-
-# print(dir(tp.FaceUtility)) # troubleshooting of topologic module path(s)
-
+# print(dir(tp)) # troubleshooting of topologic module path(s)
 
 # import: gui modules
 from tkinter import ttk
@@ -32,9 +28,14 @@ Tk().withdraw() # hides command line window
 
 
 # # define: file variables: sandbox project
-# fpa = "./topologic/Input/01_Simplified/Wall Interior/Simple Building_Separation Lines_Wall Interior_Mass.xml"
-# fpb = "./topologic/Input/01_Simplified/Wall Interior/Simple Building_Separation Lines_Wall Interior_Space.xml"
-# fpo = "./topologic/Output/01_Simplified/Simple Building_Separation Lines_Wall Interior.xml"
+# fpa = "./topologic/Input/01_Simplified/gbXML A_Geometry.xml"
+# fpb = "./topologic/Input/01_Simplified/gbXML B_Opening_Multiple.xml"
+# fpo = "./topologic/Output/01_Simplified/gbXML C_GeometryOpenings.xml"
+
+# # define: file variables: production project
+# fpa = "./topologic/Input/02_Production/22-013 Blue Star Kilbourne_Geometry.xml"
+# fpb = "./topologic/Input/02_Production/22-013 Blue Star Kilbourne_Openings.xml"
+# fpo = "./topologic/Output/02_Production/22-013 Blue Star Kilbourne_GeometryOpenings.xml"
 
 
 # define: file variables with gui
@@ -43,15 +44,8 @@ fpb = filedialog.askopenfilename(title="gbXML With Openings", filetypes=[("xml",
 fpo = filedialog.asksaveasfilename(defaultextension='.xml', filetypes=[("xml","*.xml")])
 
 
-# set: distance tolerance of opening from surface in gbXML length units (typically the thickness of the roof or wall)
-dist = 1.0
-
-
-# use: xgbxml to generate a lxml parser / read: gbXML version from input file
-tree_parser=etree.parse(fpa)
-gbxml=tree_parser.getroot()
-parser=get_parser(version=gbxml.attrib['version'])
-# parser=get_parser(version='0.37')
+# use: xgbxml to generate a lxml parser / read: gxXML version 0.37
+parser=get_parser(version='0.37')
 
 
 # open: the file using the lxml parser
@@ -78,12 +72,12 @@ gbxml_B = tree_B.getroot()
 # plt.show()
 
 
-# make: a copy of gbxml_A named gbxml_C
+# make: a copy of gbxml_A which is named gbxml_C
 gbxml_C = copy(gbxml_A)
 etree_C = etree.ElementTree(gbxml_C)
 
 
-# define: topologicpy faceByVertices (Wassim Jabi) - 27MAY22
+# define: topologicpy faceByVertices (Wassim Jabi) - 27MAY
 def faceByVertices(vertices):
     vertices
     edges = []
@@ -121,8 +115,8 @@ def faceByVertices(vertices):
     return f
 
 
-# get: gbxml_B openings (ops)  
-# make: Topologic opening centroids from gbxml_B openings (ocs)
+# get: gbxml_B openings (ops)    
+# make: gbxml_B opening centroids (ocs)
 ops = []
 ocs = []
 for op in gbxml_B.Campus.Surfaces.Openings:
@@ -131,15 +125,14 @@ for op in gbxml_B.Campus.Surfaces.Openings:
     for c in op.PlanarGeometry.get_coordinates():
         o.append(tp.Vertex.ByCoordinates(c[0],c[1],c[2]))
     ocs.append(tp.Topology.Centroid(faceByVertices(o)))
-    
+
 
 # get: gbxml_C exterior surfaces (exsu)
-# make: Topologic suface faces (sfs) from gbxml_C surfaces
+# make: gbxml_C surface faces (sfs)
 exsu = []
 sfs = []
 for su in gbxml_C.Campus.Surfaces:
     if su.get_attribute('surfaceType') in ['ExteriorWall', 'Roof']:
-    # if su.get_attribute('surfaceType') in ['Roof']:        
         exsu.append(su)
         s = []
         for c in su.PlanarGeometry.get_coordinates():
@@ -147,12 +140,12 @@ for su in gbxml_C.Campus.Surfaces:
         sfs.append(faceByVertices(s))
 
 
-# test: gbxml_B Topologic opening centroid (ocs) IsInside(face,point,tolerance) of gbxml_C Topologic surface face (sfs) (vin)
+# test: gbxml_B opening centroid IsInside(face,point,tolerance) of gbxml_C surface face (vin)
 vin = []
 for oc in ocs:
     r = []
     for sf in sfs:
-        r.append(tp.FaceUtility.IsInside(sf,oc,dist))
+        r.append(tp.FaceUtility.IsInside(sf,oc,0.01))
     vin.append(r)
     
    
@@ -168,22 +161,18 @@ for v in vin:
     if True in v:
         sfoc.append(v.index(True))
     else:
-        sfoc.append(False)       
-
-       
-# insert: gbxml_B opening into gbxml_C surface object if opening within variable 'dist' parameter
+        sfoc.append(False)
+        
+    
+# insert: gbxml_B opening into gbxml_C surface object
 i = 0
 for sf in sfoc:
     if sf==False:
         i+=1
-    else:
-        try:
-            exsu[sf].insert(3, exsu[sf].copy_opening(ops[i],tolerance=dist)) # copy_opening is xgbxml method
-            i+=1
-        except ValueError as e:
-            print(str(e) + '. Check opening: ' + ops[i].Name.text + '.')            
-            i+=1
-
+    else:    
+        exsu[sf].insert(3, ops[i])
+        i+=1
+      
 
 # render: the gbXML etree
 ax = gbxml_C.Campus.render()
@@ -194,3 +183,5 @@ plt.show()
 
 # write: the gbXML_C etree to a local file
 etree_C.write(fpo, pretty_print=True)
+
+
