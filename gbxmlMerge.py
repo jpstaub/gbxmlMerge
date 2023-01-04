@@ -180,8 +180,11 @@ for sf in sfoc:
         try:
             exsu[sf].insert(3, exsu[sf].copy_opening(ops[i],tolerance=dist)) # copy_opening is xgbxml method
             i+=1
-        except ValueError as e:
-            print(str(e) + '. Check opening: ' + ops[i].Name.text + '.')            
+        except ValueError:
+            print('Caught ValueError. Check opening: ' + ops[i].Name.text + '.')            
+            i+=1
+        except Exception:
+            print('Caught Exception. Check opening: ' + ops[i].Name.text + '.')            
             i+=1
 
 
